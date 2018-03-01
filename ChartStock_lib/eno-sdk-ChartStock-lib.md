@@ -4,15 +4,15 @@
 ####f时线Chart 
 *页面调用
 
-``` 
+```java
   ENO_FS_View ENOFsView =(ENO_FS_View) findViewById(R.id.fs_View);
-              
+             
   Eno_FsView_Presenter eno_fsView_control=new Eno_FsView_Presenter(ENOFsView,this);
 ```
 
 *布局文件
 
-```
+```xml
      <!-- <com.eno.sdk.view.chart.mvp.v.ENO_FS_ViewView-->
         <!--xmlns:chartView="http://schemas.android.com/apk/res/com.eno.sdk.view.eno_chart"-->
         <!--android:id="@+id/fs_View"-->
@@ -45,6 +45,6 @@ Eno_KxView_Presenter eno_kxView_control=new Eno_KxView_Presenter(ENOKxView,this)
         chartView:chart_show_textSize="10dip"
         />
 ```
-这是图片：![][avatar]
+界面效果：![][avatar]
 
-[avatar]: https://raw.githubusercontent.com/xmf483/ENO_APP_SDK/master/gp.jpg
+[avatar]: https://raw.githubusercontent.com/xmf483/ENO_APP_SDK/master/ChartStock_lib/stockChart.png
