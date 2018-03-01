@@ -4,7 +4,7 @@
 ####f时线Chart 
 *页面调用
 
-```java
+``` 
   ENO_FS_View ENOFsView =(ENO_FS_View) findViewById(R.id.fs_View);
               
   Eno_FsView_Presenter eno_fsView_control=new Eno_FsView_Presenter(ENOFsView,this);
